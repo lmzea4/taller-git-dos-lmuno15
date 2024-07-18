@@ -1,0 +1,21 @@
+PutGetDatalinks es una aplicación de ejemplo 
+// que muestra cómo utilizar la API de JDBC
+// para manejar columnas de base de datos de tipo datalink.
+/////////////////////////////////////////
+import java.sql.*;
+import java.net.URL;
+import java.net.MalformedURLException;
+
+public class PutGetDatalinks {
+    public static void main(String[] args) 
+    throws SQLException 
+    {
+        // Registrar el controlador JDBC nativo.
+        try {
+            Class.forName("com.ibm.db2.jdbc.app.DB2Driver");
+        } catch (Exception e) {
+            System.exit(1);  // Error de configuración.
+        }
+
+        // Establecer una conexión y una sentencia con las que trabajar.
+        C
