@@ -1,0 +1,21 @@
+Ejemplo de GetConnections.
+// 
+// Este programa muestra la posibilidad de utilizar ambos controladores JDBC a
+// la vez en un programa. Se crean dos objetos Connection en este
+// programa. Uno es una conexión JDBC nativa y el otro, una conexión JDBC de
+// IBM Toolbox para Java.
+//
+// 
+// Esta es una técnica cómoda porque le permite utilizar distintos 
+// controladores JDBC para distintas tareas de manera concurrente. Por ejemplo,
+// El controlador JDBC de IBM Toolbox para Java es ideal para conectar con un
+// servidor IBM i remoto y el controlador JDBC nativo es más rápido para las conexiones locales.
+// Puede utilizar el potencial de cada controlador concurrentemente en la 
+// aplicación escribiendo código similar al de este ejemplo.
+//
+//////////////////////////////////////////////////////////////////////////////////
+//
+// Este fuente es un ejemplo del controlador JDBC de IBM Developer para Java.
+// IBM le otorga una licencia no exclusiva para utilizarlo como un ejemplo
+// a partir del cual puede generar funciones similares adaptadas
+// a sus necesidades específicas.
